@@ -36,6 +36,11 @@ local plugins = {
     }
   },
   {
+    "folke/trouble.nvim",
+    cmd = { "TroubleToggle", "Trouble" },
+    opts = { use_diagnostic_signs = true }
+  },
+  {
     "nvim-tree/nvim-tree.lua",
     opts = {
       git = {
